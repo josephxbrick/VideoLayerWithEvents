@@ -3,7 +3,16 @@ Framer VideoLayer module with shortcuts for the video events. It also makes play
 
 ### Events Shortcuts
 
-The following are event shortcuts for all of the HTML Video events. For example, instead of saying `Events.wrap(videoLayer.player).on "timeupdate", (event) ->` you can say simply `videoLayer.onTimeUpdate (event, layer) ->`
+The following are event shortcuts for all of the HTML Video events. For example, instead of saying:
+
+```
+Events.wrap(videoLayer.player).on "timeupdate", (event) ->
+```
+you can say simply:
+
+```
+videoLayer.onTimeUpdate (event, layer) ->
+```
 
 The `event` parameter is the standard HTML video event object, which contains many accessible properties. For example, `event.target` returns the `player` object of the VideoLayer instance (which itself contains many accessible properties).
 
