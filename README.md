@@ -38,7 +38,7 @@ The `layer` parameter is the VideoLayer instance that received the message, usef
 * `videoLayer.onStalled(event, layer)` - Same as HTML video event [stalled](https://www.w3schools.com/tags/av_event_stalled.asp)
 * `videoLayer.onSuspend(event, layer)` - Same as HTML video event [suspend](https://www.w3schools.com/tags/av_event_suspend.asp)
 * `videoLayer.onTimeUpdate(event, layer)` - Same as HTML video event [timeupdate](https://www.w3schools.com/tags/av_event_timeupdate.asp)
-* `videoLayer.onVolumeChange(event, layer)` - Same as HTML video event [volumechange]
+* `videoLayer.onVolumeChange(event, layer)` - Same as HTML video event [volumechange](https://www.w3schools.com/tags/av_event_volumechange.asp)
 
 ### Functions
 
