@@ -48,6 +48,21 @@ These fuctions simply elevate `videoLayer.player` functions to become `videoLaye
 * `videoPlayer.pause()` - same as `videoPlayer.player.pause()`
 * `videoPlayer.load()` - same as `videoPlayer.player.load()`
 
+## Getting Started
+To use the module, download `VideoLayerWithEvents.coffee` and place it in the `/modules` folder of your Framer project. Then in the code of the project, add the following line:
+
+```
+{VideoLayerWithEvents} = require "VideoLayerWithEvents"
+``
+
+(Alternatively, you can just copy the contents of the file, paste it directly into your code, and remove the prepended `extends` from the name of the class.
+
+After using either method above, you can then create an instance as follows:
+
+```
+videoLayer = new VideoLayerWithEvents
+```
+
 ## Sample Code
 
 ```
