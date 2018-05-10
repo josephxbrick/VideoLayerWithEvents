@@ -46,9 +46,9 @@ Here is the list of shortcuts:
 
 These fuctions simply elevate `videoLayer.player` functions to become `videoLayer` functions.
 
-* `videoPlayer.play()` - same as `videoPlayer.player.play()`
-* `videoPlayer.pause()` - same as `videoPlayer.player.pause()`
-* `videoPlayer.load()` - same as `videoPlayer.player.load()`
+* `videoPlayer.play()` - same as `videoLayer.player.play()`
+* `videoPlayer.pause()` - same as `videoLayer.player.pause()`
+* `videoPlayer.load()` - same as `videoLayer.player.load()`
 
 ## Getting Started
 To use the module, download `VideoLayerWithEvents.coffee` and place it in the `/modules` folder of your Framer project. Then in the code of the project, add the following line:
