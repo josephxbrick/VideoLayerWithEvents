@@ -1,0 +1,8 @@
+{
+	"name": "VideoLayerWithEvents",
+	"description": "Just like VideoLayer but with event shortcuts; e.g., videoPlayer.onPlay ->",
+	"author": "Joseph Brick",
+	"example": "example.coffee",
+	"require": "{VideoLayerWithEvents} = require 'VideoLayerWithEvents'",
+	"install": "VideoLayerWithEvents.coffee"
+}
