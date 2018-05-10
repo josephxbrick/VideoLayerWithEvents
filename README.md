@@ -51,15 +51,24 @@ These fuctions simply elevate `videoLayer.player` functions to become `videoLaye
 * `videoPlayer.load()` - same as `videoLayer.player.load()`
 
 ## Getting Started
-To use the module, download `VideoLayerWithEvents.coffee` and place it in the `/modules` folder of your Framer project. Then in the code of the project, add the following line:
+If you have Modules installed, or want to use Modules to add this module to you project, click the badge below.
+
+<a href='https://open.framermodules.com/VideoLayerWithEvents'>
+    <img alt='Install with Framer Modules'
+    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
+</a>
+
+Note that you can hit Ctrl+C in Modules (when `VideoLayerWithEvents` is the active module) to copy a code example that you can then paste into your file. 
+
+If you are not using Modules and you want to use this module, download `VideoLayerWithEvents.coffee` and place it in the `/modules` folder of your Framer project. Then in the code of the project, add the following line:
 
 ```
 {VideoLayerWithEvents} = require "VideoLayerWithEvents"
 ```
 
-Alternatively, you can just copy the text of `VideoLayerWithEvents.coffee`, paste it directly into your code, and remove the prepended `extends.` from the name of the class.
+Alternatively, if you don't want to deal with a module at all, you can just copy the raw text of `VideoLayerWithEvents.coffee`, paste it directly into your code, and remove the prepended `extends.` from the name of the class.
 
-After using either method above, you can then create an instance as follows:
+After using any method above, you can then create an instance as follows:
 
 ```
 videoLayer = new VideoLayerWithEvents
