@@ -3,6 +3,7 @@ class exports.VideoLayerWithEvents extends VideoLayer
 		super options
 
 # ================= video events ==================
+
 	onAbort: (cb) -> Events.wrap(@player).on "abort", (cb)
 	onCanPlay: (cb) -> Events.wrap(@player).on "canplay", (cb)
 	onCanPlayThrough: (cb) -> @on(Events.VideoCanPlayThrough, cb)
