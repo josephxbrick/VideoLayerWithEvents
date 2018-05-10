@@ -16,7 +16,7 @@ videoLayer.onTimeUpdate (event, layer) ->
 
 The `event` parameter is the standard HTML video event object, which contains many accessible properties. For example, `event.target` returns the `player` object of the VideoLayer instance (which itself contains many accessible properties).
 
-The `layer` parameter is the VideoLayer instance that received the message, useful if you are dealing with more than one instance going.
+The `layer` parameter is the VideoLayer instance that received the message, useful if you have more than one instance going.
 
 * `videoLayer.onAbort(event, layer)` - Same as HTML video event [abort](https://www.w3schools.com/tags/av_event_abort.asp)
 * `videoLayer.onCanPlay(event, layer)` - Same as HTML video event [canplay](https://www.w3schools.com/tags/av_event_canplay.asp)
