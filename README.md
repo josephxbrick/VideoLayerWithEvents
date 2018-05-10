@@ -18,6 +18,8 @@ The `event` parameter is the standard HTML video event object, which contains ma
 
 The `layer` parameter is the VideoLayer instance that received the message, useful if you have more than one instance going.
 
+Here is the list of shortcuts:
+
 * `videoLayer.onAbort(event, layer)` - Same as HTML video event [abort](https://developer.mozilla.org/en-US/docs/Web/Events/abort)
 * `videoLayer.onCanPlay(event, layer)` - Same as HTML video event [canplay](https://developer.mozilla.org/en-US/docs/Web/Events/canplay)
 * `videoLayer.onCanPlayThrough(event, layer)` - Same as HTML video event [canplaythrough](https://developer.mozilla.org/en-US/docs/Web/Events/canplaythrough)
@@ -53,9 +55,9 @@ To use the module, download `VideoLayerWithEvents.coffee` and place it in the `/
 
 ```
 {VideoLayerWithEvents} = require "VideoLayerWithEvents"
-``
+```
 
-(Alternatively, you can just copy the contents of the file, paste it directly into your code, and remove the prepended `extends` from the name of the class.
+Alternatively, you can just copy the text of `VideoLayerWithEvents.coffee`, paste it directly into your code, and remove the prepended `extends.` from the name of the class.
 
 After using either method above, you can then create an instance as follows:
 
@@ -73,7 +75,7 @@ video.onClick ->
 	@play()
 
 video.onCanPlay (event, layer) ->
-	print "can play"
+	print "on canplay"
   
 video.onPlay (event, layer) ->
 	print "on play"
