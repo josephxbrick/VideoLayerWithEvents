@@ -1,3 +1,6 @@
+# Author: Joseph Brick
+# Repository: https://github.com/josephxbrick/VideoLayerWithEvents
+
 class exports.VideoLayerWithEvents extends VideoLayer
 	constructor: (options = {}) ->
 		super options
