@@ -1,7 +1,7 @@
 # VideoLayerWithEvents
 Framer VideoLayer module with shortcuts for the video events. It also makes play(), pause() and load() functions of the video layer itself, so no need for `videoLayer.player.play()` and such. Instead, you can use `videoLayer.play()`
 
-## Events Shortcuts
+## Event Shortcuts
 
 The following are event shortcuts for all of the HTML Video events. For example, instead of saying:
 
