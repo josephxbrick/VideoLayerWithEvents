@@ -1,7 +1,7 @@
 # VideoLayerWithEvents
 Framer VideoLayer module with shortcuts for the video events. It also makes play(), pause() and load() functions of the video layer itself, so no need for `videoLayer.player.play()` and such. Instead, you can use `videoLayer.play()`
 
-### Events Shortcuts
+## Events Shortcuts
 
 The following are event shortcuts for all of the HTML Video events. For example, instead of saying:
 
@@ -40,7 +40,7 @@ The `layer` parameter is the VideoLayer instance that received the message, usef
 * `videoLayer.onTimeUpdate(event, layer)` - Same as HTML video event [timeupdate](https://www.w3schools.com/tags/av_event_timeupdate.asp)
 * `videoLayer.onVolumeChange(event, layer)` - Same as HTML video event [volumechange](https://www.w3schools.com/tags/av_event_volumechange.asp)
 
-### Functions
+## Functions
 
 These fuctions simply elevate `videoLayer.player` functions to become `videoLayer` functions.
 
@@ -48,7 +48,7 @@ These fuctions simply elevate `videoLayer.player` functions to become `videoLaye
 * `videoPlayer.pause()` - same as `videoPlayer.player.pause()`
 * `videoPlayer.load()` - same as `videoPlayer.player.load()`
 
-### Sample Code
+## Sample Code
 
 ```
 video = new VideoLayerWithEvents
